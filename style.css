@@ -289,20 +289,6 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------End------------------*/
 
 
@@ -318,26 +304,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 
 
 
-
-
-
-
-/* .body {
-  background: #e2e1e0;
-  text-align: center;
-}
- */
-
-
-
-
-
-
-
-
-
-
-
+/*---------main Services -----*/
 
 
 
@@ -369,23 +336,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 .card-1:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-/* }
-  
-  .card-2 {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  }
-  
-  .card-3 {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  }
-  
-  .card-4 {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  }
-  
-  .card-5 {
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  } */
+
 
 /*------Services card--------------*/
 
@@ -397,8 +348,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   background-color: rgb(25, 42, 86);
 }
 
-.card-1 {
-}
+
 .service-card-content-2 {
   color: rgb(255, 0, 106);
   display: flex;
@@ -426,6 +376,26 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   margin-top: 65px;
   font-size: 22px;
 }
+
+
+/*------Service card second row-----*/
+
+
+.card2a {
+  background-color: #16A085;
+}
+
+.card2b > a{
+  color: #16A085;
+}
+
+.card2c{
+ background-color:#C0392B;
+}
+.card2d > a{
+  color:#C0392B ;
+}
+
 
 .service-card-content-5 {
   border-top-left-radius: 15px;
@@ -464,6 +434,18 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   color: rgb(27, 143, 139);
 }
 
+.card2e{
+  background-color: #616A6B;
+}
+.card2f > a{
+  color: #616A6B;
+}
+.card2g {
+  background-color: #67F914;
+}
+.card2h > a{
+  color: #67F914;
+}
 /*------Detail-Service------------------*/
 
 .frow {
