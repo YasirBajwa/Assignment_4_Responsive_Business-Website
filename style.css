@@ -292,21 +292,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 /*---------------------End------------------*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------main Services -----*/
-
-
 
 .main-services .row {
   display: flex;
@@ -501,9 +487,6 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 
-
-
-
 .detail-services h3,i{
 cursor: pointer;
 }
@@ -527,60 +510,8 @@ flex-wrap: wrap;
 
 
 
+/*-----------End --------------------*/
 
-
-
-
-
-
-/*-----------End --------------------/
-
-
-
-
-
-
-
-
-
-
-/* .detail-services  i{
-  transition: width 2s, height 4s;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------/
-
-
-/* Style the buttons */
-/* .btn-work-section {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
-
-.btn-work-section:hover {
-  background-color: #ddd;
-}
-
-.btn-work-section.active {
-  background-color: #666;
-  color: white;
-} */
 
 .filterDiv {
   float: left;
@@ -634,13 +565,11 @@ flex-wrap: wrap;
   }
 }
 
+
+
+/*-------------------------------*/
 /*------Meat Team----------------*/
 
-/* .total-members-section{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap:wrap ;
-} */
 
 .team-section-group {
   margin-top: 90px !important;
@@ -800,81 +729,8 @@ flex-wrap: wrap;
 
 /*----end of footer-------*/
 
-/* 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.meat-team > html {
-  box-sizing: border-box;
-
-}
-.meat-team > *, .meat-team > *:before, .meat-team > *:after {
-  box-sizing: inherit;
-}
-.meat-team > .column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-@media screen and (max-width: 650px) {
-  .meat-team > .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-.meat-team > .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-
-.meat-team > .container {
-  padding: 0 16px;
-}
-
-.meat-team > .container::after, .meat-team > .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.meat-team > .title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-} */
 
 /* ---------------About us ------------*/
 @media only screen and (min-width: 768px) {
@@ -913,14 +769,6 @@ flex-wrap: wrap;
     Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-
-
-
-
-
-
-
-
 
 
 
