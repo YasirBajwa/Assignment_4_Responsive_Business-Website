@@ -525,6 +525,43 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 .detail-services h3,i{
 cursor: pointer;
 }
+
+
+
+
+
+/*-------------Adjusting Screen Size main Services-----------*/
+
+
+
+@media only screen and (max-width: 560px) {
+  .main-services-row-section{
+display: flex;
+align-self: center;
+justify-content: center;
+flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+
+
+
+/*-----------End --------------------/
+
+
+
+
+
+
+
+
+
+
 /* .detail-services  i{
   transition: width 2s, height 4s;
 } */
