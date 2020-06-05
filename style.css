@@ -39,7 +39,7 @@
   margin-top: 6px;
 }
 
-/* media queries */
+/*--------------------------- media queries--------------------------------------------------- */
 @media only screen and (max-width: 700px) {
   .navbar {
     position: relative;
@@ -48,7 +48,7 @@
   }
 }
 
-/* End of top navbar */
+/*----------------------End of top navbar--------------------------------------------- */
 
 .navbar {
   background-color: rgb(255, 255, 255) !important;
@@ -68,17 +68,9 @@
   cursor: pointer;
 }
 
+/*-----------------------End of navbar----------------------------------------------*/
 
-/*------End of navbar--*/
-
-
-
-
-
-
-
-
-/*----Bottom Content------*/
+/*------------------------Bottom Content---------------------------------------------*/
 .bottom-content {
   width: 100%;
   height: 600px;
@@ -192,23 +184,10 @@
   }
 }
 
-
-
-/*--------Extra Animation code -----------------*/
-/*------------Bottom Section------*/
-
-
-
-
-
-
-
+/*------------------------------------Extra Animation code ----------------------------------*/
+/*------------------------------------Bottom Section----------------------------------------*/
 
 /*These styles contain basic styles for fomatting along with our animation css*/
-
-
-
-
 
 .container-animator *,
 .container-animator *:before,
@@ -221,7 +200,7 @@
 
 .cf:before,
 .cf:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -229,16 +208,13 @@
   clear: both;
 }
 
-
-
-
 /*animation element*/
 
 .animation-element {
   opacity: 0;
   position: relative;
 }
-/*animation element sliding left*/
+/*------------------------------animation element sliding left-------------------------*/
 
 .animation-element.slide-left {
   opacity: 0;
@@ -261,38 +237,35 @@
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
-/*animation slide left styled for testimonials*/
+/*--------------------------animation slide left styled for testimonials------------------*/
 
 .animation-element.slide-left.testimonial {
   float: left;
   width: 47%;
   margin: 0% 1.5% 3% 1.5%;
-  background: #F5F5F5;
+  background: #f5f5f5;
   padding: 15px;
-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-  border: solid 1px #EAEAEA;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  border: solid 1px #eaeaea;
 }
 .animation-element.slide-left.testimonial:hover,
-.animation-element.slide-left.testimonial:active{
+.animation-element.slide-left.testimonial:active {
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 .animation-element.slide-left.testimonial:nth-of-type(odd) {
   width: 48.5%;
-  margin: 0% 1.5% 3.0% 0%;
+  margin: 0% 1.5% 3% 0%;
 }
 
 .animation-element.slide-left.testimonial:nth-of-type(even) {
   width: 48.5%;
-  margin: 0% 0% 3.0% 1.5%;
+  margin: 0% 0% 3% 1.5%;
 }
 
+/*---------------------------------------------End---------------------------------------*/
 
-
-/*---------------------End------------------*/
-
-
-/*---------main Services -----*/
+/*--------------------------------------main Services -----------------------------------*/
 
 .main-services .row {
   display: flex;
@@ -323,8 +296,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-
-/*------Services card--------------*/
+/*----------------------------------------Services card----------------------------------------*/
 
 .service-card-content-1 {
   border-top-left-radius: 15px;
@@ -333,7 +305,6 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   width: 100%;
   background-color: rgb(25, 42, 86);
 }
-
 
 .service-card-content-2 {
   color: rgb(255, 0, 106);
@@ -363,25 +334,22 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   font-size: 22px;
 }
 
-
-/*------Service card second row-----*/
-
+/*------------------------------------------Service card second row---------------------------*/
 
 .card2a {
-  background-color: #16A085;
+  background-color: #16a085;
 }
 
-.card2b > a{
-  color: #16A085;
+.card2b > a {
+  color: #16a085;
 }
 
-.card2c{
- background-color:#C0392B;
+.card2c {
+  background-color: #c0392b;
 }
-.card2d > a{
-  color:#C0392B ;
+.card2d > a {
+  color: #c0392b;
 }
-
 
 .service-card-content-5 {
   border-top-left-radius: 15px;
@@ -420,19 +388,19 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   color: rgb(27, 143, 139);
 }
 
-.card2e{
-  background-color: #616A6B;
+.card2e {
+  background-color: #616a6b;
 }
-.card2f > a{
-  color: #616A6B;
+.card2f > a {
+  color: #616a6b;
 }
 .card2g {
-  background-color: #67F914;
+  background-color: #67f914;
 }
-.card2h > a{
-  color: #67F914;
+.card2h > a {
+  color: #67f914;
 }
-/*------Detail-Service------------------*/
+/*-------------------------------------Detail-Service--------------------------------------*/
 
 .frow {
   display: flex;
@@ -453,7 +421,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
 }
 
-/*  work section */
+/*  ------------------------------work section--------------------------------------------- */
 .myBtnContainer .btn.active {
   background: #c2e54f !important;
   color: #fff !important;
@@ -486,32 +454,23 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
-
-.detail-services h3,i{
-cursor: pointer;
+.detail-services h3,
+i {
+  cursor: pointer;
 }
 
-
-
-
-
-/*-------------Adjusting Screen Size main Services-----------*/
-
-
+/*---------------------------------Adjusting Screen Size main Services---------------------*/
 
 @media only screen and (max-width: 560px) {
-  .main-services-row-section{
-display: flex;
-align-self: center;
-justify-content: center;
-flex-wrap: wrap;
+  .main-services-row-section {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
-
-
-/*-----------End --------------------*/
-
+/*---------------------------------------------------------End --------------------*/
 
 .filterDiv {
   float: left;
@@ -534,10 +493,14 @@ flex-wrap: wrap;
 }
 
 /* Clearfix (clear floats) */
-
+/*--------------------------------Client Review Section---------------------------------------*/
 .client-section {
   height: 400px;
-  background-color: rgb(194, 299, 79);
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgba(85, 88, 218, 1) 0%,
+    rgba(95, 209, 249, 1) 100.2%
+  );
 }
 .client-review-heading {
   margin-top: 15px;
@@ -551,7 +514,11 @@ flex-wrap: wrap;
 
 .carousel-item {
   height: 300px !important;
-  background-color: rgb(194, 299, 79) !important;
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgba(85, 88, 218, 1) 0%,
+    rgba(95, 209, 249, 1) 100.2%
+  );
 }
 
 .carousel-caption {
@@ -565,11 +532,8 @@ flex-wrap: wrap;
   }
 }
 
-
-
-/*-------------------------------*/
-/*------Meat Team----------------*/
-
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------Meat Team-------------------------------------*/
 
 .team-section-group {
   margin-top: 90px !important;
@@ -586,7 +550,7 @@ flex-wrap: wrap;
   padding-right: 29px;
 }
 
-/*-----footer section------*/
+/*--------------------------------footer section---------------------------------------------*/
 
 .site-footer {
   background-color: #26272b;
@@ -727,12 +691,9 @@ flex-wrap: wrap;
   }
 }
 
-/*----end of footer-------*/
+/*----------------------------------end of footer-------------------------------------------*/
 
-
-
-
-/* ---------------About us ------------*/
+/* ----------------------------------About us ----------------------------------------------*/
 @media only screen and (min-width: 768px) {
   .site-section {
     padding: 5em 0;
@@ -770,13 +731,11 @@ flex-wrap: wrap;
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-
-
-.form-group textarea{
-padding-bottom: 100px;
+.form-group textarea {
+  padding-bottom: 100px;
 }
 
-/*-----footer------*/
+/*---------------------------------footer--------------------------------------------------*/
 
 .page-footer {
   background-color: rgb(51, 51, 51) !important;
