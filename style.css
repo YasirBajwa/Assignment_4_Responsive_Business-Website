@@ -13,9 +13,9 @@
 
 .top-nav {
   background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(0, 107, 141, 1) 0%,
-    rgba(0, 69, 91, 1) 90%
+    circle farthest-corner at 12.3% 19.3%,
+    rgba(85, 88, 218, 1) 0%,
+    rgba(95, 209, 249, 1) 100.2%
   );
 
   height: 40px !important;
@@ -40,6 +40,46 @@
 }
 
 /*--------------------------- media queries--------------------------------------------------- */
+/* @media only screen and (max-width:500px){
+  .social {
+width: 100% !important;
+position: absolute;
+left: -15px;
+  }
+  .mail-detail{
+    display: none;
+      
+    }
+  
+
+}
+
+@media only screen and (max-width:425px){
+  .social {
+width: 100% !important;
+position: absolute;
+left: -15px;
+  }
+  .mail-detail{
+  display: none;
+    
+  }
+}
+
+
+
+@media only screen and (max-width:380px){
+  .social {
+width: 100% !important;
+position: absolute;
+left: -25px;
+  }
+  .mail-detail{
+  display: none;
+    
+  }
+} */
+
 @media only screen and (max-width: 700px) {
   .navbar {
     position: relative;
@@ -95,6 +135,15 @@
   font-size: 45px !important;
 }
 
+/*--------------------------------Setting Screen adjustment--------------*/
+
+
+
+
+
+
+/*---------------------End------------------------------------------------*/
+
 .col2 > p {
   font-family: pt-italic !important;
   font-size: 25px;
@@ -148,6 +197,16 @@
 .btn2 {
   margin-top: 10px;
 }
+.btn1 button > a{
+  text-decoration: none !important;
+  color: whitesmoke;
+}
+
+.btn2 button > a{
+  text-decoration: none !important;
+  color: whitesmoke;
+}
+
 
 @media only screen and (max-width: 714px) {
   .col1 h3 {
@@ -161,6 +220,14 @@
     padding: 15px;
   }
 }
+@media only screen and (max-width: 580px) {
+  .col1 h3 {
+    text-align: center;
+  }
+}
+
+
+
 @media only screen and (max-width: 555px) {
   .col1 h3 {
     font-size: 25px !important;
@@ -368,7 +435,12 @@
 .service-card-content-6 > a {
   color: rgb(251, 195, 20);
 }
-
+@media only screen and (max-width: 267px) {
+  .service-card-content-6 > a{
+    font-size: 19px;
+    text-align: center;
+  }
+}
 .service-card-content-7 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -381,13 +453,19 @@
   display: flex;
   align-self: center;
   margin-top: 65px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .service-card-content-8 > a {
   color: rgb(27, 143, 139);
 }
 
+@media only screen and (max-width: 285px) {
+  .service-card-content-8 > a{
+    font-size: 18px;
+    text-align: center;
+  }
+}
 .card2e {
   background-color: #616a6b;
 }
@@ -513,7 +591,7 @@ i {
 }
 
 .carousel-item {
-  height: 300px !important;
+  height: 400px !important;
   background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
     rgba(85, 88, 218, 1) 0%,
@@ -523,14 +601,19 @@ i {
 
 .carousel-caption {
   position: absolute;
-  top: 70px !important;
+  top: 120px !important;
 }
-@media only screen and (max-width: 767x) {
+
+
+@media only screen and (max-width: 390px) {
   .carousel-caption {
     position: absolute;
-    left: -100px;
+    top: 90px !important;
   }
+  
 }
+
+
 
 /*---------------------------------------------------------------------------------------*/
 /*---------------------------------------------Meat Team-------------------------------------*/
