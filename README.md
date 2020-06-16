@@ -9,4 +9,6 @@ This website is made by these: <br>
 5.FlexBox <br>
 6.Animation-Style <br>
 7.Jquery <br>
+
+<p> Visit the website  https://intensedesigner369.web.app/</p> <br>
 All rights are reserved by Intense Designer
